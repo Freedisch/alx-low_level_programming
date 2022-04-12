@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * Main file
+ * return: 0
  */
 
 int main(){
