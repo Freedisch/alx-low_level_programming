@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - loop for to print all the lower alphabet
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-
-void print_alphabet(void)
+int main(void)
 {
-	char word;
-	for(word='a';word<='z';word++){
-		putchar(word);
-	}
-	putchar('\n');
+	print_alphabet();
+	return (0);
 }
