@@ -6,7 +6,7 @@ void print_alphabet(void)
 {
 	char word;
 	for(word='a';word<='z';word++){
-		putchar(ch);
+		putchar(word);
 	}
 
 	return(0);
