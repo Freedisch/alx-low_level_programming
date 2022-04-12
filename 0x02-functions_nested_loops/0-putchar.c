@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Main file
- * return: 0
+ * main - file
+ * Return: 0
  */
 
 int main(void)
