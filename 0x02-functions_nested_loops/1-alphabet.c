@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * main - file
- * Return: 0 always
+ * print_alphabet - loop for to print all the lower alphabet
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char word;
+	for(word='a';word<='z';word++){
+		putchar(word);
+	}
+	putchar('\n');
 }
