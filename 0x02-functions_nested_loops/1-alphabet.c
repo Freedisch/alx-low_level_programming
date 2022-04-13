@@ -2,13 +2,10 @@
 
 /**
  * print_alphabet - loop
- *
  */
 void print_alphabet(void)
 {
-	char word;
-
-        for (word='a'; word <= 'z'; word++)
+	for (char word = 'a'; word <= 'z'; word++)
 	{
         	putchar(word);
         }
